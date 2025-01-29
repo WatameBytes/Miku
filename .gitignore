@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyCharm-specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and database files
+*.log
+*.sqlite3
+*.db
+
+# Test coverage and reports
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Linting and type-checking
+mypy_cache/
+pylint.log
+ruff_cache/
+
+# Editor backups and system files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local configuration
+.envrc
+.env.local
